@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    # image: posao/javascript-finished
+    container_name: javascript_finished
+    ports:
+      - "8080:8080"
